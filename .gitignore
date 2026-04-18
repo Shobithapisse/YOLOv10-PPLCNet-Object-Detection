@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (large binaries — use Git LFS or link to Drive/HuggingFace)
+*.pt
+*.pth
+*.onnx
+
+# Dataset (not tracked in git — see README for download instructions)
+dataset/
+
+# Output images & logs
+runs/
+*.jpg
+*.png
+prediction*.jpg
+prediction*.png
+
+# OS
+.DS_Store
+Thumbs.db

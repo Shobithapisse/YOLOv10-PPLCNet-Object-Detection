@@ -1,0 +1,16 @@
+# Dataset configuration for YOLOv10 + PPLCNet — Oyster Mushroom Detection
+#
+# Place your dataset in the structure below:
+#   dataset/
+#     train/
+#       images/   (*.jpg)
+#       labels/   (*.txt — YOLO format)
+#     val/
+#       images/
+#       labels/
+
+train: dataset/train/images
+val:   dataset/val/images
+
+nc: 1
+names: ['oyster_mushroom']
